@@ -74,9 +74,9 @@
 
 ## 📖 About Phishing
 **Phishing** is a cyber attack that tries to trick you into giving up sensitive information by pretending to be a trustworthy source (like a bank or social media site). Stay informed and always verify links!
-Learn more about phishing:
-    https://www.phishing.org/what-is-phishing , 
-    https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams , 
+Learn more about phishing: <br>
+    https://www.phishing.org/what-is-phishing <br>
+    https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams <br>
     https://en.wikipedia.org/wiki/Phishing
 
 ---
@@ -88,6 +88,6 @@ Learn more about phishing:
 
 
 ## 💬 Feedback & Support
-Follow me for more information, take a look at my other projects
-**Website:** https://sites.google.com/view/mostofaahmed-official
+Follow me for more information, take a look at my other projects <br>
+**Website:** https://sites.google.com/view/mostofaahmed-official <br>
 **Github:** https://github.com/mostofaahmed101
