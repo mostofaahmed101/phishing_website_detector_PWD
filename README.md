@@ -64,7 +64,7 @@
     ```bash
     python app.py
     ```
-4. **Run the app locally:**
+4. **Run the app on Browser:**
 
     ```bash
     http://127.0.0.1:5000/
