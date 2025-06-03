@@ -3,7 +3,7 @@
 **Phishing Website Detector (PWD)** is a web application built with **Python Flask** that uses **Machine Learning** to detect whether a given website is **legitimate** or a **phishing** attempt. This project is designed to enhance cybersecurity awareness and prevent online frauds by helping users evaluate website URLs before visiting them.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![Flask](https://img.shields.io/badge/framework-Flask-orange)
 ![Security](https://img.shields.io/badge/security-focused-critical)
 
@@ -51,8 +51,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/mostofaahmed101/phishing_website_detector_PWD.git
-   cd phishing_website_detector_PWD
+   git clone https://github.com/mostofaahmed101/Phishing_Website_Detector-PWD.git
+   cd Phishing_Website_Detector-PWD
    ```
 2. **Install dependencies:**
 
@@ -86,6 +86,7 @@ Learn more about phishing: <br>
 2. Cybersecurity Awareness Initiatives
 3. Dataset providers for phishing URLs
 
+---
 
 ## 💬 Feedback & Support
 Follow me for more information, take a look at my other projects <br>
