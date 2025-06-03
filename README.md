@@ -51,7 +51,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone [-](https://github.com/mostofaahmed101/phishing_website_detector_PWD.git)
+   git clone https://github.com/mostofaahmed101/phishing_website_detector_PWD.git
    cd phishing_website_detector_PWD
    ```
 2. **Install dependencies:**
