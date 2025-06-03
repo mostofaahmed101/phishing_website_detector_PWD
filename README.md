@@ -51,8 +51,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone -
-   cd phishing-website-detector
+   git clone [-](https://github.com/mostofaahmed101/phishing_website_detector_PWD.git)
+   cd phishing_website_detector_PWD
    ```
 2. **Install dependencies:**
 
@@ -70,14 +70,16 @@
     http://127.0.0.1:5000/
     ```
 
+---
 
 ## 📖 About Phishing
 **Phishing** is a cyber attack that tries to trick you into giving up sensitive information by pretending to be a trustworthy source (like a bank or social media site). Stay informed and always verify links!
 Learn more about phishing:
-    https://www.phishing.org/what-is-phishing
-    https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+    https://www.phishing.org/what-is-phishing , 
+    https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams , 
     https://en.wikipedia.org/wiki/Phishing
 
+---
 
 ## 🎉 Acknowledgments
 1. Flask & Python Community
