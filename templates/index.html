@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Phishing Website Detector (PWD)</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/BgS1.png" rel="icon">
+  <link href="static/assets/img/BgS1.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="static/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="{{ url_for('home') }}" class="logo mr-auto"><img src="static/assets/img/BgS1.png" alt="" class="img-fluid"></a>
+      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">PWD</a></h1>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="{{ url_for('home') }}">Home</a></li>
+          <!-- <li><a href="{{ url_for('usecases') }}" target="_blank" rel="no-openner no-referrer">About</a></li> -->
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Main Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+      <h1>Phishing Website Detection</h1>
+            <form action="/result" method="POST" role="form" class="form">
+        <div class="row no-gutters">
+          <div class="col-md-6 form-group pr-md-1">
+              <input type="url" name="name" class="form-control" id="name" placeholder="Enter a URL link" required>
+          </div>
+        </div>
+        <div class="text-center"><button type="submit">Scan URL</button></div>
+        <p>
+          {% if name %}
+          <b><p>{{name[0]}}</p></b>
+          <h2 style="color:blue;">Website is {{name[1]}} to use</h2><br>
+            {% if name[3] %}
+            <button class="button1" onclick="window.open('{{name[0]}}')" target="_blank" >{{name[2]}}</button><br>
+            {% else %}
+            <button class="button2" onclick="window.open('{{name[0]}}')" target="_blank" >{{name[2]}}</button><br>
+            {% endif %}
+          {% endif %}
+      </p>
+      </form> 
+      <img src="static\assets\img\BgS1.png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"><br><br><br>
+    </div>
+    <script>
+        
+            /*let x = '{{xx}}';
+            let num = x*100;
+            if (0<=x && x<0.50){
+                num = 100-num;
+            }
+            let txtx = num.toString();
+            if(x<=1 && x>=0.50){
+                var label = "Website is "+txtx +"% safe to use...";
+                document.getElementById("prediction").innerHTML = label;
+                document.getElementById("button1").style.display="block";
+            }
+            else if (0<=x && x<0.50){
+                var label = "Website is "+txtx +"% unsafe to use..."
+                document.getElementById("prediction").innerHTML = label ;
+                document.getElementById("button2").style.display="block";
+            }*/
+        
+    </script>
+  </section><!-- End Main -->
+     
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container d-md-flex py-4">
+
+      <div class="text-center text-md-center">
+        <div class="copyright">
+		  <p style="padding-top: 8px; font-weight: 600;"><a style="text-decorations:none; color:inherit;"> &copy; 2025 All Rights Reserved</a></p>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script>
+    function scrolldiv() {
+        var elem = document.getElementById("about");
+        elem.scrollIntoView();
+    }
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+<!-- 
+======================================
+    Developed by 
+  Md. Mosotfa Mahin
+github: https://github.com/mostofaahmed101
+====================================== 
+-->
